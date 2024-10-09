@@ -26,7 +26,7 @@
     </header>
 
     <section class="hero">
-        <h1>Bienvenu sur mon CV en ligne</h1>
+        <h1>Bienvenue sur mon CV en ligne</h1>
         <p>Je suis un développeur passionné, prêt à relever des défis et à mettre mes compétences à votre service.</p>
         <p>Entrez votre email ci-dessous pour recevoir mon CV au format PDF.</p>
         <div class="cta">
@@ -39,6 +39,12 @@
         <p>© 2024 Mon CV en ligne</p>
     </footer>
 
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("LohZQBvqss9wlQKiO"); // Ta Public Key
+        })();
+    </script>
     <script src="script.js"></script>
 </body>
 
